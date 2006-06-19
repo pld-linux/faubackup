@@ -7,6 +7,7 @@ License:	GPL
 Group:		Applications
 Source0:	http://dl.sourceforge.net/faubackup/%{name}-%{version}.tar.gz
 # Source0-md5:	6b57b076cd5669ae3b8fae29835c3e34
+BuildRequires:	popt-devel
 URL:		http://sourceforge.net/projects/faubackup/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
