@@ -1,14 +1,16 @@
+%include	/usr/lib/rpm/macros.perl
 Summary:	The faubackup backup in filesystem tool
 Summary(pl):	Narzêdzie faubackup do wykonywania kopii w systemie plików
 Name:		faubackup
 Version:	0.5.8
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications
 Source0:	http://dl.sourceforge.net/faubackup/%{name}-%{version}.tar.gz
 # Source0-md5:	6b57b076cd5669ae3b8fae29835c3e34
-BuildRequires:	popt-devel
 URL:		http://sourceforge.net/projects/faubackup/
+BuildRequires:	popt-devel
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
