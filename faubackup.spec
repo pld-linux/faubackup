@@ -2,12 +2,12 @@
 Summary:	The faubackup backup in filesystem tool
 Summary(pl):	Narzêdzie faubackup do wykonywania kopii w systemie plików
 Name:		faubackup
-Version:	0.5.8
-Release:	2
+Version:	0.5.9
+Release:	1
 License:	GPL
 Group:		Applications
 Source0:	http://dl.sourceforge.net/faubackup/%{name}-%{version}.tar.gz
-# Source0-md5:	6b57b076cd5669ae3b8fae29835c3e34
+# Source0-md5:	44d3723e3c2d7bc4a63f8ac91699c8c2
 URL:		http://sourceforge.net/projects/faubackup/
 BuildRequires:	popt-devel
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -29,7 +29,7 @@ kopiami przyrostowymi poniewa¿ do niezmienionych plików s± tylko
 tworzone twarde dowi±zania.
 
 %prep
-%setup -q -n %{name}
+%setup -q
 
 %build
 %configure
