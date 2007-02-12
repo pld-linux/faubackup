@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	The faubackup backup in filesystem tool
-Summary(pl):	Narzêdzie faubackup do wykonywania kopii w systemie plików
+Summary(pl.UTF-8):   NarzÄ™dzie faubackup do wykonywania kopii w systemie plikÃ³w
 Name:		faubackup
 Version:	0.5.9
 Release:	1
@@ -20,13 +20,13 @@ tools (ls, find, grep, cp, ...). Later backups to the same filesystem
 will automatically be incremental, as unchanged files are only
 hard-linked with the existing version of the file.
 
-%description -l pl
-Faubackup u¿ywa systemu plików na dysku twardym do wykonywania kopii
-pe³nych i przyrostowych. Wszystkie kopie s± ³atwo dostêpne z
-wykorzystaniem standardowych narzêdzi (ls, find, grep, cp, ...).
-Pó¼niejsze kopie na tym samym systemie plików automatycznie bêd±
-kopiami przyrostowymi poniewa¿ do niezmienionych plików s± tylko
-tworzone twarde dowi±zania.
+%description -l pl.UTF-8
+Faubackup uÅ¼ywa systemu plikÃ³w na dysku twardym do wykonywania kopii
+peÅ‚nych i przyrostowych. Wszystkie kopie sÄ… Å‚atwo dostÄ™pne z
+wykorzystaniem standardowych narzÄ™dzi (ls, find, grep, cp, ...).
+PÃ³Åºniejsze kopie na tym samym systemie plikÃ³w automatycznie bÄ™dÄ…
+kopiami przyrostowymi poniewaÅ¼ do niezmienionych plikÃ³w sÄ… tylko
+tworzone twarde dowiÄ…zania.
 
 %prep
 %setup -q
