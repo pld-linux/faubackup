@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.perl
 Summary:	The faubackup backup in filesystem tool
 Summary(pl.UTF-8):	Narzędzie faubackup do wykonywania kopii w systemie plików
 Name:		faubackup
